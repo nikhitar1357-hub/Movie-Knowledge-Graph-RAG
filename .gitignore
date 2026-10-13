@@ -1,0 +1,31 @@
+# Environment variables
+.env
+.env.local
+
+# Python virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python cache & compiled bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Streamlit local state & secrets
+.streamlit/secrets.toml
+
+# IDE configuration
+.vscode/
+.idea/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Keep real environment files private
+.env.*
+!.env.example
